@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(../assets/img/fondoP.png);
+    font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header {
+    
+    background-color: rgb(142, 55, 182);
+    height: 130px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.logo {
+    position: sticky;
+    float: left;
+    padding: 30px;
+}
+
+.menu {
+    position: sticky;
+    float: right;
+    margin: 24px;
+    padding: 30PX;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00899e
+    );
+    border-radius: 8px;
+}
+
+@media (max-width:375px ) {
+
+}
+
+.banner {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
+.banner h1 {
+    text-align: right;
+    font-size: 100px;
+    padding: 150px 100px;
+}
+
+.tablaCategorias {
+    width: auto;
+    margin: auto;
+}
+.cat {
+    padding: 50px;
+}
+.boton_categorias {
+
+    border: 0;
+background-image: linear-gradient(
+    150deg,
+    #9500ff,
+    #09f,
+    #00899e
+);
+border-radius: 8px;
+color: aliceblue;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+}
+
+
+.boton_categorias a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
+
+.biografia {
+    background-color: #9500ff;
+    color: white;
+    padding: 20px 100px 70px 100px;
+    text-align: justify;
+}
+
+.biografia h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.biografia p{
+    font-size: 1.5rem;
+}
+
+.text1{
+    border: 2px solid #00DDFF;
+    border-radius: 10px;
+}
+
+.premios {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.premios table {
+    padding: 30px 100px 30px 100px;
+}
+
+.premios h2 {
+    padding: 30px 0px;
+}
+
+.premios h3 {
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00899e
+    );
+    border-radius: 8px;
+    color: aliceblue;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 15px 30px 15px 30px;
+    margin: 5px;
+}
+
+.prueba{
+    margin-left: 15rem;
+}
+
+.premios td {
+    text-align: left;
+}
+
+footer {
+    background-color: #9500ff;
+    color: white;
+    text-align: center;
+    padding: 20px 100px 70px 100px;
+}
+
+.playa{
+    height: 400px;
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    border-radius: 5rem;
+    border: .5rem solid #00090a;
+}
+
+.redes1{
+    height: 2rem;
+    position: absolute;
+    top: auto;
+    left:75rem;
+    
+}
+
+.redes2{
+    height: 2rem;
+    position: absolute;
+    top: auto;
+    left:78rem;
+
+}
+
+.redes3{
+    height: 2rem;
+    position: absolute;
+    top: auto;
+    left:81rem;
+
+}
+
+.info{
+    border: 3px solid #00DDFF;
+    margin: 10px;
+
+}
+
+.info p{
+    font-size: 1.5rem;
+}
+
+.informacion{
+    font-size: 2rem;
+}
